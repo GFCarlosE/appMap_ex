@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/map.css">
+    <title>Mapa</title>
+</head>
+<body>
+    <p class="parrafo">
+        Bienvenido <span id="nombre"></span><br>
+        Las coordenadas que introdujiste fueron: (<span id="latitud"></span>, <span id="longitud"></span>) <br>
+        Los puntos verdes indican los límites del área de servicio alrededor de la universidad La Salle Bajío <br>
+        El punto amarillo  con rojo es la coordenada introducida. <br>
+        El punto azul es su posición actual.
+    </p>
+    
+    <div id="map" class="map"></div>
+    <div id="info" style="display: none"></div>
+    <script type="module" src="/js/map.js"></script>
+</body>
+</html>
